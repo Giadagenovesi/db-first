@@ -1,0 +1,26 @@
+// Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+CARS LIST 
+
+______________________________________________________________________
+
+
+id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
+brand - VARCHAR(20) - NOT NULL
+model - VARCHAR(20) - NOT NULL
+seats - TINYINT
+doors - TINYINT
+exterior_color - VARCHAR(15) 
+interior_color -    VARCHAR(15)
+kilometres - SMALLINT - NOT NULL
+license_plate - VARCHAR (10)
+gearbox_type - VARCHAR(12)
+year_of_enrollment - DATE - NOT NULL
+type_of_engine - VARCHAR(10)
+displacement -   SMALLINT                //cilindrata
+number_of_owners - TINYINT
+conditions - VARCHAR(15)
+price - MEDIUMINT - NOT NULL
+description - TEXT 
+images - TEXT - DEFAULT ("/assets/img/no_image.png")
+available - TINYINT - DEFAULT(1)
